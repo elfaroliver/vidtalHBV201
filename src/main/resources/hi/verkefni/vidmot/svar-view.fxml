@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hi.verkefni.vinnsla.SvarDialogController">
+   <children>
+      <HBox layoutX="200.0" layoutY="286.0" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="OkSvarButton" mnemonicParsing="false" onAction="#fxOkSvarButton" text="Í lagi" />
+            <Button fx:id="StopSvarButton" mnemonicParsing="false" onAction="#fxStopSvarButton" text="Hætta við" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
