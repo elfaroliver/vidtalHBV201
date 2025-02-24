@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.HBox?>
 
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hi.verkefni.vinnsla.SvarDialogController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vidmot.SvarDialogController">
    <children>
       <HBox layoutX="200.0" layoutY="286.0" prefHeight="100.0" prefWidth="200.0">
          <children>

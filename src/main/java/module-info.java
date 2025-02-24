@@ -3,6 +3,8 @@ module hi.verkefni.vidtal {
     requires javafx.fxml;
 
 
-    opens hi.verkefni.vidtal to javafx.fxml;
-    exports hi.verkefni.vidtal;
+    opens hi.verkefni.vinnsla to javafx.fxml;
+    exports hi.verkefni.vinnsla;
+    exports vidmot;
+    opens vidmot to javafx.fxml;
 }

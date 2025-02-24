@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hi.verkefni.vinnsla.KvedjaController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vidmot.KvedjaController">
    <children>
       <Button fx:id="KvedjaTakki" layoutX="274.0" layoutY="313.0" mnemonicParsing="false" onAction="#fxKvedjaTakki" text="Hætta" />
       <Label fx:id="KvedjaText" layoutX="160.0" layoutY="80.0" prefHeight="86.0" prefWidth="280.0" text="Gangi þér vel í viðtalinu">

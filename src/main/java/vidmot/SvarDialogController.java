@@ -1,4 +1,4 @@
-package hi.verkefni.vinnsla;
+package vidmot;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

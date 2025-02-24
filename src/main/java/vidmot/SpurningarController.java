@@ -1,4 +1,4 @@
-package hi.verkefni.vinnsla;
+package vidmot;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -8,7 +8,6 @@ import javafx.scene.control.Label;
 public class SpurningarController {
     @FXML
     private Label SpurningarText;
-
     @FXML
     private Button fxSvaraSpurningar;
     @FXML
