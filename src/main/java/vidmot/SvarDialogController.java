@@ -24,5 +24,6 @@ public class SvarDialogController {
     }
 
     public void fxStopSvarButton(ActionEvent event) {
+
     }
 }

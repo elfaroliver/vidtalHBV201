@@ -1,5 +1,6 @@
 package vidmot;
 
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -22,6 +23,6 @@ public class KvedjaController {
      */
     public void fxKvedjaTakki(ActionEvent event) {
         // loka forriti
-        boolean KvedjaTakki = true;
+        Platform.exit();
     }
 }

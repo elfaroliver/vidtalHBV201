@@ -6,8 +6,8 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
 public class VelkominnController {
-    public Button StopButton;
-    public Button ByrjaSpurningar;
+    //public Button StopButton;
+    //public Button ByrjaSpurningar;
     @FXML
     private Label welcomeText;
     @FXML
@@ -20,11 +20,13 @@ public class VelkominnController {
         welcomeText.setText("Welcome to JavaFX Application!");
     }
 
-    public void fxByrjaSpurningar(ActionEvent event) {
+    public void fxByrjaSpurningarHandler(ActionEvent event) {
         // Fara í spurningar
+        ViewSwitcher.switchTo(View.SPURNINGAR);
     }
 
-    public void fxStopButton(ActionEvent event) {
+    public void fxStopButtonHandler(ActionEvent event) {
         // Hætta strax
+        ViewSwitcher.switchTo(View.KVEDJA);
     }
 }

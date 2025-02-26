@@ -28,17 +28,17 @@
       </HBox>
       <HBox>
          <children>
-            <Button fx:id="SvaraSpurningar" mnemonicParsing="false" onAction="#fxSvaraSpurningar" text="Svara">
+            <Button fx:id="fxSvaraSpurningar" mnemonicParsing="false" onAction="#fxSvaraSpurningar" text="Svara">
                <HBox.margin>
                   <Insets left="100.0" />
                </HBox.margin>
             </Button>
-            <Button fx:id="TilBakaSpurningar" mnemonicParsing="false" onAction="#fxTilBakaSpurningar" text="Til baka">
+            <Button fx:id="fxTilBakaSpurningar" mnemonicParsing="false" onAction="#fxTilBakaSpurningar" text="Til baka">
                <HBox.margin>
                   <Insets left="100.0" />
                </HBox.margin>
             </Button>
-            <Button fx:id="StopSpurningar" mnemonicParsing="false" onAction="#fxStopSpurningar" text="Hætta">
+            <Button fx:id="fxStopSpurningar" mnemonicParsing="false" onAction="#fxStopSpurningar" text="Hætta">
                <HBox.margin>
                   <Insets left="100.0" right="100.0" />
                </HBox.margin>
