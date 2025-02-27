@@ -6,8 +6,8 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
 public class VelkominnController {
-    //public Button StopButton;
-    //public Button ByrjaSpurningar;
+    public Button StopButton;
+    public Button ByrjaSpurningar;
     @FXML
     private Label welcomeText;
     @FXML

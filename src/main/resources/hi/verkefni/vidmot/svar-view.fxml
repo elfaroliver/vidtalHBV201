@@ -9,8 +9,8 @@
    <children>
       <HBox layoutX="200.0" layoutY="286.0" prefHeight="100.0" prefWidth="200.0">
          <children>
-            <Button fx:id="OkSvarButton" mnemonicParsing="false" onAction="#fxOkSvarButton" text="Í lagi" />
-            <Button fx:id="StopSvarButton" mnemonicParsing="false" onAction="#fxStopSvarButton" text="Hætta við" />
+            <Button fx:id="okSvarButton" mnemonicParsing="false" onAction="#okSvarButton" text="Í lagi" />
+            <Button fx:id="stopSvarButton" mnemonicParsing="false" onAction="#stopSvarButton" text="Hætta við" />
          </children>
       </HBox>
    </children>

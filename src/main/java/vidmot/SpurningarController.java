@@ -1,5 +1,6 @@
 package vidmot;
 
+import hi.verkefni.vinnsla.Spurningar;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -14,6 +15,13 @@ public class SpurningarController {
     private Button fxTilBakaSpurningar;
     @FXML
     private Button fxStopSpurningar;
+
+    private Spurningar spurningar = new Spurningar();
+
+    /*public void initialize() {
+        fxFlokkar.getSelectionModel().selectedIndexProperty()
+                .addListener((obs, old, newIndex) -> {});
+    }*/
 
 
     /*@FXML

@@ -9,21 +9,18 @@ public class SvarDialogController {
     private Label SvarDialogText;
 
     @FXML
-    private Button fxOkSvarButton;
+    private Button okSvarButton;
     @FXML
-    private Button fxStopSvarButton;
+    private Button stopSvarButton;
 
     @FXML
     protected void onHelloButtonClick() {
         SvarDialogText.setText("Welcome to SvarDialogController!");
     }
 
-
-    public void fxOkSvarButton(ActionEvent event) {
-        
+    public void okSvarButton(ActionEvent event) {
     }
 
-    public void fxStopSvarButton(ActionEvent event) {
-
+    public void stopSvarButton(ActionEvent event) {
     }
 }
