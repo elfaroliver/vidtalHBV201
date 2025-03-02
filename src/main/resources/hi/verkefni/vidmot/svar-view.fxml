@@ -4,9 +4,11 @@
 <?import javafx.scene.control.DialogPane?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
 
 <DialogPane layoutX="120.0" layoutY="89.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vidmot.SvarDialogController">
    <header>
+      <Label fx:id="SvarDialogText" layoutX="20.0" layoutY="20.0" text="Spurningin birtist hér" />
       <HBox prefHeight="100.0" prefWidth="200.0">
          <children>
             <Button fx:id="okSvarButton" mnemonicParsing="false" onAction="#okSvarButton" text="Í lagi" />

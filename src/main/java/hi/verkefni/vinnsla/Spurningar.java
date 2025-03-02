@@ -19,15 +19,15 @@ public class Spurningar extends Dialog<String> {
 
         ObservableList<String> flokkur1 = FXCollections.observableArrayList();
 
-        flokkur1.add("Spurning 1");
-        flokkur1.add("Spurning 2");
-        flokkur1.add("Spurning 3");
+        flokkur1.add("Fæðingarstaður?");
+        flokkur1.add("Heimilisfang?");
+        flokkur1.add("Uppáhalds tannkrem?");
 
         ObservableList<String> flokkur2 = FXCollections.observableArrayList();
 
-        flokkur2.add("Spurning 1");
-        flokkur2.add("Spurning 2");
-        flokkur2.add("Spurning 3");
+        flokkur2.add("Búinn að horfa á Young Justice?");
+        flokkur2.add("Alltaf í boltanum?");
+        flokkur2.add("Er Hideo Kojima ofmetinn?");
 
         spurningar.put(flokkar.get(0), flokkur1);
         spurningar.put(flokkar.get(1), flokkur2);
