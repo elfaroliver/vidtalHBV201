@@ -3,11 +3,12 @@ package hi.verkefni.vinnsla;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.scene.control.Dialog;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Spurningar {
+public class Spurningar extends Dialog<String> {
     private final ObservableList<String> flokkar = FXCollections.observableArrayList();
     private final Map<String, ObservableList<String>> spurningar = new HashMap<>();
     private final SimpleStringProperty fjoldiSvaradraSpurninga = new SimpleStringProperty("0");

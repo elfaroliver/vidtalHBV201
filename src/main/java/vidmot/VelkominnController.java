@@ -23,10 +23,12 @@ public class VelkominnController {
     public void fxByrjaSpurningarHandler(ActionEvent event) {
         // Fara í spurningar
         ViewSwitcher.switchTo(View.SPURNINGAR);
+        System.out.println("Þessi takki fer í spurningar");
     }
 
     public void fxStopButtonHandler(ActionEvent event) {
         // Hætta strax
         ViewSwitcher.switchTo(View.KVEDJA);
+        System.out.println("Þessi takki fer í hætta");
     }
 }

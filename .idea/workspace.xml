@@ -6,12 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f573ee8a-13ad-4416-a284-0bc33af44413" name="Changes" comment="Búinn að tengja allt í View, held ég">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vidmot/InterviewApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vidmot/InterviewApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vidmot/SpurningarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vidmot/SpurningarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hi/verkefni/vinnsla/Spurningar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hi/verkefni/vinnsla/Spurningar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vidmot/SvarDialogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vidmot/SvarDialogController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vidmot/VelkominnController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vidmot/VelkominnController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vidmot/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vidmot/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hi/verkefni/vidmot/spurningar-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hi/verkefni/vidmot/spurningar-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hi/verkefni/vidmot/svar-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hi/verkefni/vidmot/svar-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Nám/Vor25/HBV201/HBV201G-forrit-main/Vika5/MultipleViews"
+    "last_opened_file_path": "C:/Nám/Vor25/HBV201/HBV201G-forrit-main/Vika5/DialogResultConverter"
   }
 }]]></component>
   <component name="RecentsManager">
