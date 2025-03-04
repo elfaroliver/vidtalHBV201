@@ -12,13 +12,13 @@ public class KvedjaController {
     @FXML
     private Button KvedjaTakki;
 
-    @FXML
+    /*@FXML
     protected void onHelloButtonClick() {
         KvedjaText.setText("Welcome to KvedjaController!");
-    }
+    }*/
 
     /**
-     * fxKvedjaTakki lokar forritinu
+     * fxKvedjaTakki lokar forritinu. Færð ekki að fara til baka eins og teikningin hennar Ebbu sýndi
      * @param event
      */
     public void fxKvedjaTakki(ActionEvent event) {

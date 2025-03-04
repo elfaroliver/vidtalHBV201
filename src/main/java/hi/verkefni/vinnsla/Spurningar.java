@@ -13,6 +13,9 @@ public class Spurningar extends Dialog<String> {
     private final Map<String, ObservableList<String>> spurningar = new HashMap<>();
     private final SimpleStringProperty fjoldiSvaradraSpurninga = new SimpleStringProperty("0");
 
+    /**
+     * Hérna eru spurningarnar fyrir ListView gluggana
+     */
     public Spurningar() {
         flokkar.add("Færnispurningar"); // Færnispurningar
         flokkar.add("Tæknispurningar"); // Tæknispurningar

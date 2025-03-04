@@ -9,6 +9,11 @@ import javafx.scene.control.*;
 import java.io.IOException;
 import java.util.Optional;
 
+/**
+ * Hér eru engin JavaDocs nema þetta hérna því ég veit ekki hvað ég er að gera í þessu skjali
+ *
+ */
+
 public class SvarDialogController extends Dialog<String> {
     @FXML
     private Label SvarDialogText;

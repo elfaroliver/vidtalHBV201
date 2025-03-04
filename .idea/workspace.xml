@@ -6,10 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f573ee8a-13ad-4416-a284-0bc33af44413" name="Changes" comment="Búinn að tengja allt í View, held ég">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hi/verkefni/vinnsla/FeedbackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hi/verkefni/vinnsla/FeedbackService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hi/verkefni/vinnsla/Spurningar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hi/verkefni/vinnsla/Spurningar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vidmot/KvedjaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vidmot/KvedjaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vidmot/SpurningarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vidmot/SpurningarController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vidmot/SvarDialogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vidmot/SvarDialogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hi/verkefni/vidmot/svar-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hi/verkefni/vidmot/svar-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hi/verkefni/vidmot/kvedja-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hi/verkefni/vidmot/kvedja-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hi/verkefni/vidmot/spurningar-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hi/verkefni/vidmot/spurningar-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -3,6 +3,7 @@ package vidmot;
 import hi.verkefni.vinnsla.Spurningar;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
@@ -11,8 +12,6 @@ import javafx.scene.control.TextInputDialog;
 import java.util.Optional;
 
 public class SpurningarController {
-    /*@FXML
-    private Label SpurningarText;*/
     @FXML
     private Button fxSvaraSpurningar;
     @FXML
@@ -20,18 +19,19 @@ public class SpurningarController {
     @FXML
     private Button fxStopSpurningar;
     @FXML
+    private Label fjoldiSvaradra;
+    @FXML
     private ListView<String> fxListiSpurningar;
     @FXML
     private ListView<String> fxListiSpurningar1;
-
     private Spurningar spurningar = new Spurningar();
 
-    /*public void initialize() {
-        fxListiSpurningar.getSelectionModel().selectedIndexProperty()
-                .addListener((obs, old, newIndex) -> {});
-    }*/
-
+    /**
+     * Setur spurningaflokkana í ListView kassana
+     */
     public void initialize() {
+        Spurningar spurningar = new Spurningar();
+
         if (!spurningar.getFlokkar().isEmpty()) {
             String valinnFlokkur = spurningar.getFlokkar().get(0);
             fxListiSpurningar.setItems(spurningar.getSpurningar().get(valinnFlokkur));
@@ -62,7 +62,12 @@ public class SpurningarController {
         SpurningarText.setText("Welcome to SpurningarController!");
     }*/
 
+    /**
+     * Takki til að opna valda spurningu. Allt dialog.set tekið úr TextDialog, viku 5
+     * @param event
+     */
     public void fxSvaraSpurningar(ActionEvent event) {
+        System.out.println("Þessi takki svarar");
         TextInputDialog dialog = new TextInputDialog();
 
         String valinSpurning = fxListiSpurningar.getSelectionModel().getSelectedItem();
@@ -74,26 +79,51 @@ public class SpurningarController {
         }
 
         String spurningText;
-        if (valinSpurning1 != null) {
-            spurningText = valinSpurning1;
-        } else {
+        /*if (valinSpurning != null) {
             spurningText = valinSpurning;
+        } else {
+            spurningText = valinSpurning1;
+        }*/
+
+        if (valinSpurning1 != null && !valinSpurning1.isEmpty()) {
+            spurningText = valinSpurning1;
+        } else if (valinSpurning != null && !valinSpurning.isEmpty()) {
+            spurningText = valinSpurning;
+        } else {
+            spurningText = "Engin spurning valin!";
         }
 
         dialog.setTitle(spurningText);
         dialog.setHeaderText(spurningText);
         dialog.setContentText("Svar hér, pls: " + spurningText);
 
-        dialog.showAndWait();
+        Optional<String> result = dialog.showAndWait();
+
+        if (result.isPresent() && !result.get().trim().isEmpty()) {
+            // Ef notandi skrifaði svar, hækka fjöldann
+            int nyttFjoldi = Integer.parseInt(spurningar.getFjoldiSvaradraSpurninga()) + 1;
+            fjoldiSvaradra.textProperty().bind(spurningar.fjoldiSvaradraSpurningaProperty());
+            spurningar.setFjoldiSvaradraSpurninga(String.valueOf(nyttFjoldi));
+        }
+
+        //dialog.showAndWait();
 
         dialog.close();
     }
 
+    /**
+     * Til að fara úr spurningum í velkominn
+     * @param event
+     */
     public void fxTilBakaSpurningar(ActionEvent event) {
         ViewSwitcher.switchTo(View.VELKOMINN);
-        System.out.println("Þessi takki fer til baka í spurningar");
+        System.out.println("Þessi takki fer til baka í velkominn");
     }
 
+    /**
+     * Til að fara úr spurningum í að hætta
+     * @param event
+     */
     public void fxStopSpurningar(ActionEvent event) {
         ViewSwitcher.switchTo(View.KVEDJA);
         System.out.println("Þessi takki hættir");

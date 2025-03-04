@@ -9,6 +9,6 @@
    <children>
       <ButtonBar prefHeight="40.0" prefWidth="200.0" />
       <Button fx:id="KvedjaTakki" layoutX="164.0" layoutY="160.0" mnemonicParsing="false" onAction="#fxKvedjaTakki" text="Hætta" />
-      <Label fx:id="KvedjaText" layoutX="127.0" layoutY="60.0" text="Takk fyrir þáttökuna" />
+      <Label fx:id="KvedjaText" layoutX="127.0" layoutY="60.0" text="Takk fyrir þátttökuna" />
    </children>
 </AnchorPane>
