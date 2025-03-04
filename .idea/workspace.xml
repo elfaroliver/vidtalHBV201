@@ -7,7 +7,9 @@
     <list default="true" id="f573ee8a-13ad-4416-a284-0bc33af44413" name="Changes" comment="Búinn að tengja allt í View, held ég">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hi/verkefni/vinnsla/FeedbackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hi/verkefni/vinnsla/FeedbackService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vidmot/SpurningarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vidmot/SpurningarController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vidmot/SvarDialogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vidmot/SvarDialogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hi/verkefni/vidmot/svar-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hi/verkefni/vidmot/svar-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,15 +36,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Nám/Vor25/HBV201/HBV201G-forrit-main/Vika5/TextDialog"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Nám/Vor25/HBV201/HBV201G-forrit-main/Vika5/TextDialog&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Nám\Vor25\HBV201\Verkefni\vidtal\src\main\resources\hi\verkefni\vinnsla" />

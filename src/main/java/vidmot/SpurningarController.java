@@ -6,6 +6,9 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
+import javafx.scene.control.TextInputDialog;
+
+import java.util.Optional;
 
 public class SpurningarController {
     /*@FXML
@@ -60,14 +63,30 @@ public class SpurningarController {
     }*/
 
     public void fxSvaraSpurningar(ActionEvent event) {
-        System.out.println("Þessi takki svarar");
+        TextInputDialog dialog = new TextInputDialog();
+
         String valinSpurning = fxListiSpurningar.getSelectionModel().getSelectedItem();
-        if (valinSpurning != null) {
-            SvarDialogController dialog = new SvarDialogController(valinSpurning);
-            dialog.showAndWait();
-        } else {
+        String valinSpurning1 = fxListiSpurningar1.getSelectionModel().getSelectedItem();
+
+        if (valinSpurning == null && valinSpurning1 == null) {
             System.out.println("Engin spurning valin!");
+            return;
         }
+
+        String spurningText;
+        if (valinSpurning1 != null) {
+            spurningText = valinSpurning1;
+        } else {
+            spurningText = valinSpurning;
+        }
+
+        dialog.setTitle(spurningText);
+        dialog.setHeaderText(spurningText);
+        dialog.setContentText("Svar hér, pls: " + spurningText);
+
+        dialog.showAndWait();
+
+        dialog.close();
     }
 
     public void fxTilBakaSpurningar(ActionEvent event) {
@@ -79,9 +98,4 @@ public class SpurningarController {
         ViewSwitcher.switchTo(View.KVEDJA);
         System.out.println("Þessi takki hættir");
     }
-
-    /*public static void main(String[] args) {
-        SvarDialogController dialog = new SvarDialogController("Spurning 1");
-        dialog.showAndWait();
-    }*/
 }

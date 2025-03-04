@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.control.Label?>
 
-<DialogPane layoutX="120.0" layoutY="89.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vidmot.SvarDialogController">
-   <header>
-      <Label fx:id="SvarDialogText" layoutX="20.0" layoutY="20.0" text="Spurningin birtist hér" />
-      <HBox prefHeight="100.0" prefWidth="200.0">
-         <children>
-            <Button fx:id="okSvarButton" mnemonicParsing="false" onAction="#okSvarButton" text="Í lagi" />
-            <Button fx:id="stopSvarButton" mnemonicParsing="false" onAction="#stopSvarButton" text="Hætta við" />
-         </children>
-      </HBox>
-   </header>
-</DialogPane>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0"
+            xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vidmot.SvarDialogController">
+   <children>
+      <ButtonBar layoutX="130.0" layoutY="355.0" prefHeight="25.0" prefWidth="304.0">
+        <buttons>
+          <Button fx:id="okSvarButton" mnemonicParsing="false" prefHeight="25.0" text="Svara spurningu" />
+            <Button fx:id="stopSvarButton" mnemonicParsing="false" prefHeight="25.0" text="Hætta við spurningu" />
+        </buttons>
+      </ButtonBar>
+      <TextField layoutX="181.0" layoutY="135.0" prefHeight="108.0" prefWidth="243.0" />
+   </children>
+</AnchorPane>

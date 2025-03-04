@@ -56,23 +56,6 @@ public class SvarDialogController extends Dialog<String> {
         } else {
             System.out.println("SvarDialogText er null!");
         }
-
-        /*setDialogPane(lesaSvarDialog());
-        setTitle("Svar við spurningu");
-        SvarDialogText.setText(selectedItem);
-
-        // Setting the ResultConverter to convert the TextField input to the result
-        setResultConverter(dialogButton -> {
-            String input = textFieldSvar.getText();
-            if (input != null && !input.trim().isEmpty()) {
-                // Call the FeedbackService with the input
-                feedbackService.provideFeedback(input);
-
-                // Return the answer as result
-                return input;
-            }
-            return null; // Return null if the input is empty
-        });*/
     }
 
 
